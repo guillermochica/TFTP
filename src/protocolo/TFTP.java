@@ -2,11 +2,11 @@ package protocolo;
 
 public class TFTP {
 	
-	private static byte OPCODE_RRQ=1;
-	private static byte OPCODE_WRQ=2;
-	private static byte OPCODE_DATA=3;
-	private static byte OPCODE_ACK=4;
-	private static byte OPCODE_ERROR=5;
+	public static byte OPCODE_RRQ=1;
+	public static byte OPCODE_WRQ=2;
+	public static byte OPCODE_DATA=3;
+	public static byte OPCODE_ACK=4;
+	public static byte OPCODE_ERROR=5;
 	
 	private static byte zero = 0;
 	
